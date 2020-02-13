@@ -90,17 +90,17 @@
             // dgvCustomerOrders
             // 
             this.dgvCustomerOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCustomerOrders.Location = new System.Drawing.Point(16, 120);
+            this.dgvCustomerOrders.Location = new System.Drawing.Point(12, 117);
             this.dgvCustomerOrders.Name = "dgvCustomerOrders";
             this.dgvCustomerOrders.ReadOnly = true;
             this.dgvCustomerOrders.RowHeadersVisible = false;
-            this.dgvCustomerOrders.Size = new System.Drawing.Size(531, 150);
+            this.dgvCustomerOrders.Size = new System.Drawing.Size(531, 198);
             this.dgvCustomerOrders.TabIndex = 5;
             // 
             // btnCancelOrder
             // 
             this.btnCancelOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnCancelOrder.Location = new System.Drawing.Point(12, 313);
+            this.btnCancelOrder.Location = new System.Drawing.Point(12, 332);
             this.btnCancelOrder.Name = "btnCancelOrder";
             this.btnCancelOrder.Size = new System.Drawing.Size(148, 30);
             this.btnCancelOrder.TabIndex = 6;
@@ -110,7 +110,7 @@
             // btnFillOrder
             // 
             this.btnFillOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnFillOrder.Location = new System.Drawing.Point(166, 313);
+            this.btnFillOrder.Location = new System.Drawing.Point(166, 332);
             this.btnFillOrder.Name = "btnFillOrder";
             this.btnFillOrder.Size = new System.Drawing.Size(148, 30);
             this.btnFillOrder.TabIndex = 7;
@@ -120,7 +120,7 @@
             // btnFinishUpdates
             // 
             this.btnFinishUpdates.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnFinishUpdates.Location = new System.Drawing.Point(445, 313);
+            this.btnFinishUpdates.Location = new System.Drawing.Point(441, 332);
             this.btnFinishUpdates.Name = "btnFinishUpdates";
             this.btnFinishUpdates.Size = new System.Drawing.Size(102, 30);
             this.btnFinishUpdates.TabIndex = 8;
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 357);
+            this.ClientSize = new System.Drawing.Size(562, 395);
             this.Controls.Add(this.btnFinishUpdates);
             this.Controls.Add(this.btnFillOrder);
             this.Controls.Add(this.btnCancelOrder);
