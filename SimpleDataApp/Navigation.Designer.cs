@@ -50,20 +50,22 @@
             this.btnGoToAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnGoToAdd.Location = new System.Drawing.Point(12, 40);
             this.btnGoToAdd.Name = "btnGoToAdd";
-            this.btnGoToAdd.Size = new System.Drawing.Size(120, 30);
+            this.btnGoToAdd.Size = new System.Drawing.Size(268, 30);
             this.btnGoToAdd.TabIndex = 2;
             this.btnGoToAdd.Text = "Добавить учетную запись";
             this.btnGoToAdd.UseVisualStyleBackColor = true;
+            this.btnGoToAdd.Click += new System.EventHandler(this.btnGoToAdd_Click);
             // 
             // btnGoToFillOrCancel
             // 
             this.btnGoToFillOrCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnGoToFillOrCancel.Location = new System.Drawing.Point(12, 76);
             this.btnGoToFillOrCancel.Name = "btnGoToFillOrCancel";
-            this.btnGoToFillOrCancel.Size = new System.Drawing.Size(120, 30);
+            this.btnGoToFillOrCancel.Size = new System.Drawing.Size(268, 30);
             this.btnGoToFillOrCancel.TabIndex = 3;
             this.btnGoToFillOrCancel.Text = "Заполнить или отменить заказ";
             this.btnGoToFillOrCancel.UseVisualStyleBackColor = true;
+            this.btnGoToFillOrCancel.Click += new System.EventHandler(this.btnGoToFillOrCancel_Click);
             // 
             // btnExit
             // 
@@ -74,6 +76,7 @@
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Выйти";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Navigation
             // 
